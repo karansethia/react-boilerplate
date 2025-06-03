@@ -1,6 +1,4 @@
-export type User = {
-  id: number,
-  name: string,
-  email: string,
-  website: string
-}
+/*
+ * Create types for your app here
+ *
+*/

@@ -1,6 +1,4 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom"
-import UsersView from "./pages/UsersView";
-import HomeView from "./pages/HomeView";
 
 const App = () => {
 
@@ -10,11 +8,11 @@ const App = () => {
       children: [
         {
           index: true,
-          element: <HomeView />
+          element: <h2>Home Page</h2>
         },
         {
           path: "/users",
-          element: <UsersView />        }
+          element: <h2>Another Page</h2>        }
       ]
     }]
   )
